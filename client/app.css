@@ -1,0 +1,14 @@
+.app-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.app-logo {
+  height: 40px;
+  width: auto;
+}
+
+.card-form {
+  padding: 40px;
+}
+

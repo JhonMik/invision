@@ -1,0 +1,13 @@
+.invoice-card {
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.total-invoice-card {
+	margin-top: 30px;
+}
+
+.separator {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}

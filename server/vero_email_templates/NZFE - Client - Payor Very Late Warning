@@ -1,0 +1,7 @@
+{{event.client.company_name}},
+
+Your client, {{event.payor.company_name}} is overdue on their invoice [{{event.invoice.number}}], dated {{event.invoice.invoice_date}} by over 15 days.  If this continues, we will consider the invoice to be in dispute, and require you to cover this invoice with another.
+
+Please resolve this issue with your client quickly so we can ensure you the best funding experience possible.
+
+Thanks!

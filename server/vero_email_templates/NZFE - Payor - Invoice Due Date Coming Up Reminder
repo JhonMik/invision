@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html dir="auto">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">body{font-family: arial,sans-serif; color: #222; line-height: 1.4285;}p{color: #222;}ul li{margin-left: 15px;} img{max-width: 100%;}</style>
+</head>
+<body>
+{{event.payor.company_name}},
+<br><br>
+Just a friendly reminder that your invoice [{{event.invoice.number}}], dated {{event.invoice.due_date}} is due within 3 days.  If you have already paid this invoice, please disregard this email.
+<br><br>
+You can send payments to {{event.client.payment_instructions}}
+<br><br>
+Thanks!
+</body>
+</html>

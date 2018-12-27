@@ -1,0 +1,21 @@
+.finish-connection-panel {
+    padding-top: 380px;
+}
+.headline {
+    height: 28px;
+    color: #2E4052;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+.subheading {
+    height: 38px;
+    color: #2E4052;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 0px 200px;
+}

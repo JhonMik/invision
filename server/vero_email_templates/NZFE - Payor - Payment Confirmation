@@ -1,0 +1,5 @@
+{{event.payor.company_name}},
+
+This is an email receipt confirming that we have received your payment of {{???}} of for invoice [{{event.invoice.number}}], dated {{event.invoice.invoice_date}}.  The balance for this invoice is now {{event.invoice.balance_remaining}}.
+
+Thanks!

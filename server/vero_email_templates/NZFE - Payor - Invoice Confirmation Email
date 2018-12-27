@@ -1,0 +1,10 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html dir="auto">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">body{font-family: arial,sans-serif; color: #222; line-height: 1.4285;}p{color: #222;}ul li{margin-left: 15px;} img{max-width: 100%;}</style>
+</head>
+<body style="font-size:11pt;font-family:arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">
+{{event.invoice.payor_message}}
+</body>
+</html>

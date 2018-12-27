@@ -1,0 +1,27 @@
+
+.customers-card {
+  padding: 20px;
+}
+
+.customers-table {
+  width: 100%;
+}
+.customers-table td {
+  width: 20%;
+  padding: 5px 0px 5px 0px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.customers-table-amount-symbol {
+  text-align: left;
+  width: 2% !important;
+}
+
+.customers-table-amount-gap {
+  width: 7% !important;
+}
+.customers-table-amount-number {
+  padding-right: 5px !important;
+  text-align: left;
+  width: 5% !important;
+}

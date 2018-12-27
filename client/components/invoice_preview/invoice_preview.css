@@ -1,0 +1,158 @@
+.invoice-preview-panel {
+    margin-top: 6vw;
+}
+.headline {
+    height: 28px;
+    color: #2E4052;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+}
+.fund-heading {
+    height: 11px;	
+    width: 128.16px;	
+    color: #9B9B9B;	
+    font-family: Roboto;	
+    font-size: 10px;	
+    font-weight: 500;	
+    line-height: 11px;
+    margin-bottom: 5px;
+}
+.fund-subheading{
+    height: 28px;	
+    width: 166px;	
+    color: #2E4052;;	
+    font-family: Roboto;	
+    font-size: 24px;	
+    line-height: 28px;
+}
+.fund-subheading.unpaid{
+    height: 28px;	
+    width: 166px;	
+    color: #E53935;	
+    font-family: Roboto;	
+    font-size: 24px;	
+    line-height: 28px;
+}
+
+.sortby-label {
+    color: #2E4052;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    padding-top: 10px;
+}
+.sort-options {
+    padding: 0;
+}
+
+.invoice-item {
+    padding-bottom: 5px;
+}
+
+.company-name {
+	height: 21px;
+	width: 116px;
+	color: #2E4052;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 21px;
+}
+.payor {
+	height: 16px;
+	width: 151px;
+	color: #9B9B9B;
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.invoice-id {
+	height: 16px;
+	width: 151px;
+	color: #9B9B9B;
+	font-family: Roboto;
+	font-size: 14px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+.invoice-mount {
+	height: 28px;
+	color: #2E4052;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 28px;
+	text-align: right;
+}
+.date {
+	height: 16px;
+	color: #9B9B9B;
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: right;
+}
+.getpaid-btn {
+    width: 50%;
+    float: right;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.dialog-footer {
+    padding: 15px;
+}
+
+.email-headline {
+    height: 21px;
+    color: #2E4052;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+}
+.email-subheading {
+    height: 38px;
+    color: #2E4052;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.customer-info {
+    margin: auto;}
+    .customer-info > div > div {
+        border-right: 1px solid #2E4052;}
+    .customer-info > div > div.email {
+        border:none;}
+    .customer-info .info-detail-heading {
+        height: 11px;
+        color: #9B9B9B;
+        font-family: Roboto;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 11px;}
+    .customer-info .info-detail-subheading {
+        height: 19px;
+        color: #2E4052;
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 19px;}
+.sample-text-panel {
+    padding-left: 50px!important;
+    padding-right: 50px!important;
+}
+.sample-text{
+    color: #2E4052;	
+    font-family: Lato;	
+    font-size: 16px;	
+    letter-spacing: 0.67px;	
+    line-height: 19px;
+}

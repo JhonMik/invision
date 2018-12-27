@@ -1,0 +1,51 @@
+.headline {
+    height: 28px;
+    color: #2E4052;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+
+.subheading {
+    height: 38px;
+    color: #2E4052;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.document-info-row {
+    padding: 0;
+}
+
+.icon {
+    float: right;   
+}
+
+.upload-dialog-headline {
+    height: 21px;
+    color: #2E4052;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.upload-text {
+    height: 19px;
+    color: #2E4052;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.dropzone {
+    width: 400px;
+    height: 300px;
+    border: 1px dashed #2E4052;
+    padding-top: 130px;
+}

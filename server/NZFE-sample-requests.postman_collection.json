@@ -1,0 +1,267 @@
+{
+	"info": {
+		"_postman_id": "0c69883f-f327-4e3e-b68f-2d0e51cf35e0",
+		"name": "NZFE sample requests",
+		"description": "A few requests illustrating the NZFE server API.\n\nPlease note that it is necessary to modify the Bearer Token in the Authorization tab before making invoice requests -- it must be replaced with the token returned by the initial /auth/local request.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "NZFE authorization (run this first)",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"jackmadbelly2@gmail.com\", \n  \"password\": \"J6ackB9elly\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5050/auth/local?",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"auth",
+						"local"
+					],
+					"query": [
+						{
+							"key": "password",
+							"value": null,
+							"disabled": true
+						}
+					]
+				},
+				"description": "This returns a token which must be used as the Bearer Token for subsequent requests, such as invoice queries."
+			},
+			"response": []
+		},
+		{
+			"name": "Get all invoices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5050/api/invoices",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"invoices"
+					]
+				},
+				"description": "The Bearer Token must be set, either in each of these invoice requests or in this \"NZFE sample requests\" collection's authorization which will be inherited by all of the requests in the collection."
+			},
+			"response": []
+		},
+		{
+			"name": "Get specified invoice",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5050/api/invoices/1003455",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"invoices",
+						"1003455"
+					]
+				},
+				"description": "The Bearer Token must be set, either in each of these invoice requests or in this \"NZFE sample requests\" collection's authorization which will be inherited by all of the requests in the collection."
+			},
+			"response": []
+		},
+		{
+			"name": "Get ignored invoices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5050/api/invoices?state=ignored",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"invoices"
+					],
+					"query": [
+						{
+							"key": "state",
+							"value": "ignored"
+						}
+					]
+				},
+				"description": "The Bearer Token must be set, either in each of these invoice requests or in this \"NZFE sample requests\" collection's authorization which will be inherited by all of the requests in the collection."
+			},
+			"response": []
+		},
+		{
+			"name": "Get unprocessed invoices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5050/api/invoices?state=unprocessed",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"invoices"
+					],
+					"query": [
+						{
+							"key": "state",
+							"value": "unprocessed"
+						}
+					]
+				},
+				"description": "The Bearer Token must be set, either in each of these invoice requests or in this \"NZFE sample requests\" collection's authorization which will be inherited by all of the requests in the collection."
+			},
+			"response": []
+		},
+		{
+			"name": "Get imported invoices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5050/api/invoices?state=imported",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"invoices"
+					],
+					"query": [
+						{
+							"key": "state",
+							"value": "imported"
+						}
+					]
+				},
+				"description": "The Bearer Token must be set, either in each of these invoice requests or in this \"NZFE sample requests\" collection's authorization which will be inherited by all of the requests in the collection."
+			},
+			"response": []
+		},
+		{
+			"name": "Get paid invoices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5050/api/invoices?state=paid",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"invoices"
+					],
+					"query": [
+						{
+							"key": "state",
+							"value": "paid"
+						}
+					]
+				},
+				"description": "The Bearer Token must be set, either in each of these invoice requests or in this \"NZFE sample requests\" collection's authorization which will be inherited by all of the requests in the collection."
+			},
+			"response": []
+		},
+		{
+			"name": "Get deleted invoices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5050/api/invoices?state=deleted",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5050",
+					"path": [
+						"api",
+						"invoices"
+					],
+					"query": [
+						{
+							"key": "state",
+							"value": "deleted"
+						}
+					]
+				},
+				"description": "The Bearer Token must be set, either in each of these invoice requests or in this \"NZFE sample requests\" collection's authorization which will be inherited by all of the requests in the collection."
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjViNGUxOTQ5MjhiZDY3MDM2ZTUxZWI0MCIsIm5hbWUiOiJqYWNrbWFkYmVsbHkyQGdtYWlsLmNvbSIsInV1aWQiOiI2YWE2ZGNmN2I2OTAzNmY3N2Q2NGI2ZDk2ZDE0MmE5OTExZDU2MmJiIn0sInN1YmplY3QiOiI1YjRlMTk0OTI4YmQ2NzAzNmU1MWViNDAiLCJpYXQiOjE1MzIwMjQzNzEsImV4cCI6MTUzMjAyNzk3MX0.dp-pi8QwcdVuO6ql5WMtBE7pb3Zs31sAO3_vbxu9N3c",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "171b4a4d-fe05-4af0-96da-f572725769a4",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "c8f7a629-0019-4a82-9200-bb4df8db8dcd",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
